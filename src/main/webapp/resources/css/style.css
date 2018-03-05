@@ -36,15 +36,22 @@ tr:nth-child(odd) {background: #BBBBBB}
 #container h3 {color: #000;}
 #container #content {margin-top: 20px;}
 
-.add-button {
+.addBtn {
     border: 1px solid #666;
     border-radius: 5px;
-    padding: 4px;
-    font-size: 12px;
-    font-weight: bold;
+    padding: 7px;
+    font-size: 15px;
+    /*font-weight: bold;*/
     width: 120px;
     padding: 5px 10px;
 
-    margin-bottom: 15px;
-    background: #cccccc;
+    margin: 20px;
 }
+
+.addBtn:hover{
+
+    font-weight: bold;
+    background: #43BFC7;
+    color: #FFFFFF;
+}
+
